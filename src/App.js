@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { injectGlobal } from 'styled-components';
 import Header from './components/Header';
+import Main from './components/Main';
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
@@ -10,12 +11,12 @@ injectGlobal`
   }
 `;
 
-class App extends Component {
-  render() {
-    return (
-      <Header />
-    );
-  }
-}
+const App = () => (
+  <div>
+    <Header />
+    <Main />
+  </div>
+);
+  
 
 export default App;

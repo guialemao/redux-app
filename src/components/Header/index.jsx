@@ -2,15 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 import Menu from '../../containers/Menu';
 
-const HeaderApp = styled.header`
+const HeaderWrapper = styled.header`
   height: 51px;
-  background-color: #000;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
 `;
 
 const Header = () => (
-  <HeaderApp>
+  <HeaderWrapper>
     <Menu />
-  </HeaderApp>
+  </HeaderWrapper>
 );
 
 export default Header;
