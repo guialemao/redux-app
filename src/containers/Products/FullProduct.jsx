@@ -4,7 +4,6 @@ import { List } from '../../components/styles';
 
 const FullProduct = () => (
   <div>
-    <h2>Roster Product</h2>
     <List column="row" width="100%">
       <ProductItem />
     </List>

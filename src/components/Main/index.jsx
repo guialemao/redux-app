@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from '../../containers/Home';
 import Products from '../../containers/Products';
 import Contact from '../../containers/Contact';
+import Cart from '../../containers/Cart';
 
 const Main = () => (
   <main>
@@ -10,6 +11,7 @@ const Main = () => (
       <Route exact path='/' component={Home} />
       <Route path='/products' component={Products} />
       <Route path='/contact' component={Contact} />
+      <Route path='/cart' component={Cart} />
     </Switch>
   </main>
 );
