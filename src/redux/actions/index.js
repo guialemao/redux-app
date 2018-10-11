@@ -1,8 +1,8 @@
-import { ADD_ARTICLE } from '../contants/action-types';
+import { ADD_PURCHASE } from '../contants/action-types';
 
-const addArticle = article => ({
-  type: ADD_ARTICLE,
-  payload: article,
+const addPurchase = purchase => ({
+  type: ADD_PURCHASE,
+  payload: purchase,
 });
 
-export default addArticle;
+export default addPurchase;

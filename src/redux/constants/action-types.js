@@ -1,3 +1,3 @@
-const ADD_ARTICLE = "ADD_ARTICLE";
+const ADD_PURCHASE = "ADD_PURCHASE";
 
-export default ADD_ARTICLE;
+export default ADD_PURCHASE;

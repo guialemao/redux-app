@@ -27,6 +27,11 @@ const Card = styled.div`
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-radius: 2px;
 
+  > a {
+    color: #000;
+    text-decoration: none;
+  }
+
   img {
     width: 100%;
   }
