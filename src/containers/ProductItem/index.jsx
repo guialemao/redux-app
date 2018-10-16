@@ -21,11 +21,12 @@ const ProductItem = ({ purchase }) => {
           <a href="#/">
             <img src={product.post_url} alt=""/>
             <div className="body-card">
-              <span><strong>Product: </strong>{product.filename}</span>
-              <span><strong>Price: </strong>U${product.height}</span>
+              <span><strong>Product: </strong>{product.name}</span>
+              <span><strong>Price: </strong>U${product.price}</span>
               <span><strong>Design by: </strong>{product.author}</span>
+              <span><strong>Inventory: </strong>{product.inventory}</span>
             </div>
-            <button>buy</button>
+            <button>add to cart</button>
           </a>
         </Card>
       </ListContent>

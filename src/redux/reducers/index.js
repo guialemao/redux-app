@@ -1,12 +1,12 @@
-import ADD_PURCHASE from '../constants/action-types';
+import ADD_TO_CART from '../constants/action-types';
 
 const initialState = {
   purchase: [],
 };
 
-const rootReducer = (state = initialState, action) => {
+const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case ADD_PURCHASE:
+    case ADD_TO_CART:
       return { 
         ...state,
         purchase: [...state.purchase, action.payload],
@@ -16,4 +16,4 @@ const rootReducer = (state = initialState, action) => {
   }
 };
 
-export default rootReducer;
+export default reducer;

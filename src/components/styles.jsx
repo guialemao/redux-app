@@ -28,11 +28,13 @@ const Card = styled.div`
   border-radius: 2px;
 
   > a {
+    display: block;
     color: #000;
     text-decoration: none;
   }
 
   img {
+    padding-top: 10px;
     width: 100%;
   }
 
@@ -50,6 +52,7 @@ const Card = styled.div`
     width: 100%;
     height: 40px;
     color: #fff;
+    cursor: pointer;
     background-color: #FF5A49;
     border: 1px solid transparent;
   }
